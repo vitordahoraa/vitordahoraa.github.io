@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
 body {
     background-color: #e9ecef;
     align-items: flex-start;
@@ -29,6 +31,7 @@ h1{
 }
 
 .rectangle1 {
+	position:relative;
 	grid-column-start:1;
 	grid-column-end:10;
 	grid-row-start:1;
@@ -44,6 +47,7 @@ h1{
 
 
 .rectangle2 {
+	position:relative;
 	grid-column-start:11;
 	grid-column-end:20;
 	grid-row-start:1;
@@ -71,6 +75,7 @@ h1{
 
 
 .rectangle4 {
+	position:relative;
 	grid-column-start:13;
 	grid-column-end:31;
 	grid-row-start:2;
@@ -89,4 +94,48 @@ h1{
 .logo img{
 	height: 45px;
 	width:45px;
+}
+
+#AutoImage img{
+	height: 20rem;
+	margin-left: 1rem;
+}
+
+#PersonIcon i{
+	font-size: 30rem;
+	position:absolute;
+	bottom:-6.5rem;
+	right: -3.8rem;
+	color:#22BBA9;
+	opacity:0.25;
+	padding:0;
+}
+#CodeIcon i{
+	font-size: 25rem;
+	position:absolute;
+	bottom:-3rem;
+	right:0;
+	color:#22BBA9;
+	opacity:0.25;
+	padding:0;
+}
+
+#FreeImage img{
+	width: 50rem;
+	margin: 0 1rem;
+}
+
+.ContactIcon{
+	width: 100px;
+	margin: 5rem auto;
+	position:relative;
+}
+
+.ContactIcon i{
+	font-size: 5rem;
+	padding:10px;
+}
+
+a{
+	color:black;
 }
