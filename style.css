@@ -1,0 +1,33 @@
+body {
+    background-color: #F2A35A;
+    align-items: flex-start;
+    border: 1px;
+    display: flex;
+    height: 2160px;
+    width: 1920px;
+}
+.rectangle1 {
+    height: 800px;
+    left:100px;
+    position:absolute;
+    top:40px;
+    width:834px;
+    background-color: #2072EE;
+    border-radius: 20px;
+    border: 4px black solid;
+}
+
+.rectangle1 h1{
+    margin: 30px 280px;
+}
+
+.rectangle2 {
+    height: 700px;
+    right:100px;
+    position:absolute;
+    top:40px;
+    width:834px;
+    background-color: #2072EE;
+    border-radius: 20px;
+    border: 4px black solid;
+}
