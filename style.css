@@ -4,6 +4,7 @@ body {
     background-color: #e9ecef;
     align-items: flex-start;
     display: flex;
+	font-family: 'Montserrat';
 }
 
 .Content{
@@ -99,6 +100,8 @@ h1{
 #AutoImage img{
 	height: 20rem;
 	margin-left: 1rem;
+	position:relative;
+	bottom:1.1rem;
 }
 
 #PersonIcon i{
