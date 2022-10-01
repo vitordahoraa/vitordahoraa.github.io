@@ -142,3 +142,10 @@ h1{
 a{
 	color:black;
 }
+
+@media screen and (max-width: 1600px){
+	#Cards{
+		display: block;
+	}
+
+}
