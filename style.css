@@ -148,4 +148,24 @@ a{
 		display: block;
 	}
 
+	.rectangle1{
+		margin-left: 0;
+		margin:10px auto;
+	}
+
+	.rectangle2{
+		margin-left: 0;
+		margin:10px auto;
+	}
+
+	.rectangle3{
+		margin-left: 0;
+		margin:10px auto;
+	}
+
+	.rectangle4{
+		margin-left: 0;
+		margin:10px auto;
+	}
+
 }
